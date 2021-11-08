@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body
+{
+    background: linear-gradient(30deg, rgb(245, 75, 208),rgb(36, 103, 211));
+    background-size: 300%;
+    text-align: center;
+    font-family: sans-serif ;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1
+{
+    margin: 40px 50px;
+    color: rgb(53, 2, 53);
+    font-size: 50px;
+}
+p
+{
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 35px;
+}
+h4
+{
+    font-size: 40px;
+    margin-top: 30px;
+    color: rgb(224, 224, 224);
+}
+button
+{
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: rgb(251, 248, 248);
+    background: linear-gradient(50deg, rgb(75, 177, 245),rgb(36, 103, 211));
+}
+button + p
+{
+    font-size: 30px;
+    margin-top: 18px;
+    font-style: normal;
+    color: rgb(18, 5, 77);
+    font-weight: normal;
+}
